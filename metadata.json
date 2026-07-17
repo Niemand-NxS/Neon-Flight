@@ -1,6 +1,0 @@
-{
-  "name": "Sci-Fi 2D Endless Runner",
-  "description": "Ein futuristisches 2D Endless-Runner-Spiel mit HTML5-Canvas, flüssiger Touch- und Tastatursteuerung, Partikeleffekten und 10 verschiedenen Raumschiff-Designs.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
