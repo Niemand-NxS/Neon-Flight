@@ -2,11 +2,10 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Neon Velocity
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/65b383fb-c91a-40fa-9806-2dbd2a0f1bb8
+A static Vite/React game that can be hosted on GitHub Pages. It does not need
+an API key or a server.
 
 ## Run Locally
 
@@ -15,6 +14,15 @@ View your app in AI Studio: https://ai.studio/apps/65b383fb-c91a-40fa-9806-2dbd2
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
+
+## Deploy to GitHub Pages
+
+1. Create a GitHub repository and upload this project's contents.
+2. In the repository, open **Settings → Pages** and set **Source** to
+   **GitHub Actions**.
+3. Push to the `main` branch. The included workflow builds and deploys the site.
+
+The Vite configuration uses relative URLs, so it works for both a
+`username.github.io` repository and a normal project repository.
